@@ -83,12 +83,12 @@ a {
     width : 100%;
     height :14378px;
     background: url(../mak_m.jpg) no-repeat top center;
-    opacity: 1;
+    opacity: 0.5;
     position : absolute;
     top : 0px;
     left : 0;
     z-index : 5;
-    display : none;
+    /* display : none; */
 }
 #hidden-box{display:none;}
 .mobi {
@@ -2262,11 +2262,14 @@ button {
         margin : 0 0;
     }
     .head_info a {
-        font-size : 17px;
+        font-size: 16px;
         margin-right : 0;
+        letter-spacing: -0.8px;
     }
     .sec1 {
-        padding-top : 100px;
+        padding-top: 90px;
+        background-image: url(../img/bg_sec1_m.jpg);
+        height: 581px;
     }
     .spec1,
     .spec2,
@@ -2311,6 +2314,47 @@ button {
     .logo_diz {
         margin : 0 auto;
     }
+    header{
+	top: 0px;
+	padding: 7px 0;
 }
-@media (max-width: 320px) {
+.menu_btn{background-image: url(../img/menu_btn_m.png);width: 28px;height: 21px;margin: 15px 7%;}
+.head_info {
+	margin-top: 16px;
+}
+.sec1 h1 span{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 5px;
+	margin-left: -1px;
+	width: 74%;
+	letter-spacing: -0.8px;
+}
+.sec1 h1{
+	margin-left: 3px;
+	letter-spacing: -2.3px;
+	line-height: 28px;
+}
+.btn_head{
+	margin-top: 21px;
+}
+.btn{
+	line-height: 43px;
+	letter-spacing: -1.6px;
+}
+.icon_gr img{
+	height: 40px;
+	margin-bottom: 12px;
+}
+.sec2 {
+	padding: 18px 0;
+}
+.icon_gr p{
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: -0.5px;
+}
+.icon_gr{
+	margin: 2px 0px!important;
+}
 }

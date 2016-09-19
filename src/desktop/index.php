@@ -322,44 +322,44 @@
                 <div class="zadacha_gr1 active">
                     <div class="zach">
                         <h3>Пластическая хирургия</h3>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr2">
                     <div class="zach">
                         <h3>Косметология</h3>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr3">
                     <div class="zach">
                         <h3>Поликлиника</h3>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr4">
                     <div class="zach">
                         <h3>Лучевая диагностика и лучевая терапия</h3>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr5">
                     <div class="zach">
                         <h3>Стоматология</h3>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr6">
                     <div class="zach">
                         <h3>Лабораторная диагностика</h3>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr7">
                     <div class="zach">
                         <h3>Check-up</h3>
                         <p class="new_z">New</p>
-                        <span>Подробнее</span>
+                        <p class="span a-btn">Подробнее</p>
                     </div>
                 </div>
             </div>

@@ -194,21 +194,22 @@ a {
     color : #296471;
     height : 45px;
     cursor : pointer;
-            transition : all 0.25s;
+    transition : all 0.25s;
     position : relative;
+    overflow: hidden;
     -webkit-transition : -webkit-transform 0.3s, opacity 0.3s;
-            transition :         transform 0.3s, opacity 0.3s;
+    transition :         transform 0.3s, opacity 0.3s;
     -webkit-transition-timing-function : cubic-bezier(0.2, 1, 0.3, 1);
-            transition-timing-function : cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function : cubic-bezier(0.2, 1, 0.3, 1);
 }
 .btn:hover,
 .btn.active,
 .btn:active,
-.zach span:hover,
-.zach span.active,
-.zach span:active {
+.zach p.span:hover,
+.zach p.span.active,
+.zach p.span:active {
     border-color : #296471;
-    background-color : #296471;
+    background-color: rgba(41, 100, 113, 0.7);
     color : white;
     transition : all 0.25s;
 }
@@ -734,17 +735,17 @@ a {
 .zadacha_gr7.active .zach h3 {
     color : white;
 }
-.zach:hover span,
-.zadacha_gr1.active .zach span,
-.zadacha_gr2.active .zach span,
-.zadacha_gr3.active .zach span,
-.zadacha_gr4.active .zach span,
-.zadacha_gr5.active .zach span,
-.zadacha_gr6.active .zach span,
-.zadacha_gr7.active .zach span {
+.zach:hover p.span,
+.zadacha_gr1.active .zach p.span,
+.zadacha_gr2.active .zach p.span,
+.zadacha_gr3.active .zach p.span,
+.zadacha_gr4.active .zach p.span,
+.zadacha_gr5.active .zach p.span,
+.zadacha_gr6.active .zach p.span,
+.zadacha_gr7.active .zach p.span {
     display : inline-block;
 }
-.zach span {
+.zach p.span {
     width : 142px;
     height : 40px;
     border : 2px solid white;
@@ -764,6 +765,7 @@ a {
     background-position : 102px center;
     clear : both;
     transition : all 0.25s;
+    position: relative;
 }
 .zadacha_gr1 {
     background-image : url(../img/zadacha1.jpg);

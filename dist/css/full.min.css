@@ -38,14 +38,15 @@ table{border-collapse:collapse;border-spacing:0}
 a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}
 .wrap{position:relative;margin:0 auto;max-width:1200px;width:100%;z-index:2;text-align:center;font-size:0;height:100%}
 .clear{clear:both}
-.section,header,section{width:100%;overflow:hidden;position:relative;z-index:1}
+.header,.section,header,section{width:100%;overflow:hidden;position:relative;z-index:1}
 h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}
 body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
 a{text-decoration:none;color:inherit;outline:0!important}
-#maket{width:100%;height:319px;background:url(../mak_d.jpg) no-repeat top center;opacity:.5;position:absolute;top:11864px;left:0;z-index:5;display:none}
+#maket{width:100%;height:14378px;background:url(../mak_m.jpg) no-repeat top center;opacity:1;position:absolute;top:0;left:0;z-index:5;display:none}
+#hidden-box{display:none}
 .mobi{display:none}
 .sec1{position:relative;z-index:2;-webkit-background-size:cover;background-size:cover;background-image:url(../img/bg_sec1.jpg);height:660px;padding-top:215px}
-header{position:absolute;top:15px;left:0;z-index:5;padding:13px 0}
+.header{position:absolute;top:15px;left:0;z-index:5;padding:13px 0}
 .logo{background-image:url(../img/logo.png);width:235px;height:57px;position:relative;display:inline-block;float:left;margin:0 10px;-webkit-background-size:contain;background-size:contain}
 .menu_btn{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAbAQMAAAAqF2+eAAAABlBMVEX///////9VfPVsAAAAAXRSTlMAQObYZgAAABRJREFUCNdj+A8EfxiQSfIAzcwBACfiLLk7pc5OAAAAAElFTkSuQmCC);width:38px;height:27px;float:left;margin:8px 35px;cursor:pointer}
 .head_info{float:right;text-align:right;margin-top:1px}
@@ -135,8 +136,8 @@ header{position:absolute;top:15px;left:0;z-index:5;padding:13px 0}
 .zadacha_gr,.zadacha_gr1,.zadacha_gr2,.zadacha_gr3,.zadacha_gr4,.zadacha_gr5,.zadacha_gr6,.zadacha_gr7{display:inline-block;width:380px;vertical-align:top;height:220px;margin:10px 10px;position:relative;z-index:3}
 .zach{padding-top:26px;padding-left:34px;width:100%;height:100%;-webkit-transition:all .25s;transition:all .25s}
 .zadacha_gr1.active .zach,.zadacha_gr1:hover .zach,.zadacha_gr2.active .zach,.zadacha_gr2:hover .zach,.zadacha_gr3.active .zach,.zadacha_gr3:hover .zach,.zadacha_gr4.active .zach,.zadacha_gr4:hover .zach,.zadacha_gr5.active .zach,.zadacha_gr5:hover .zach,.zadacha_gr6.active .zach,.zadacha_gr6:hover .zach,.zadacha_gr7.active .zach,.zadacha_gr7:hover .zach{background-color:rgba(41,100,113,.65);-webkit-transition:all .25s;transition:all .25s}
-.zach h4{font-size:28px;color:#494949;text-align:left;letter-spacing:-1.4px;z-index:5;display:inline-block;float:left}
-.zach:hover h4,.zadacha_gr1.active .zach h4,.zadacha_gr2.active .zach h4,.zadacha_gr3.active .zach h4,.zadacha_gr4.active .zach h4,.zadacha_gr5.active .zach h4,.zadacha_gr6.active .zach h4,.zadacha_gr7.active .zach h4{color:#fff}
+.zach h3{font-size:28px;color:#494949;text-align:left;letter-spacing:-1.4px;z-index:5;display:inline-block;float:left}
+.zach:hover h3,.zadacha_gr1.active .zach h3,.zadacha_gr2.active .zach h3,.zadacha_gr3.active .zach h3,.zadacha_gr4.active .zach h3,.zadacha_gr5.active .zach h3,.zadacha_gr6.active .zach h3,.zadacha_gr7.active .zach h3{color:#fff}
 .zach:hover span,.zadacha_gr1.active .zach span,.zadacha_gr2.active .zach span,.zadacha_gr3.active .zach span,.zadacha_gr4.active .zach span,.zadacha_gr5.active .zach span,.zadacha_gr6.active .zach span,.zadacha_gr7.active .zach span{display:inline-block}
 .zach span{width:142px;height:40px;border:2px solid #fff;display:inline-block;float:left;margin-top:17px;margin-left:2px;font-size:16px;line-height:36px;text-align:left;padding-left:22px;letter-spacing:-.9px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAMAAACz+6aNAAAAXVBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8/beDHAAAAHnRSTlMABgwNEBEdISkvMzQ7Plx2h4mRy9Hf4eTo7vH09feqMS+hAAAARElEQVQIHV3BWQJAMAxAwWcvte+K3P+YfKaZQWkSjHbAyO8aY91KoFBm2R1ILPRcyiMSerRJDkdkOSsi2dsR8yOGT/l9TNgFczl77dAAAAAASUVORK5CYII=);z-index:5;display:none;cursor:pointer;background-position:102px center;clear:both;-webkit-transition:all .25s;transition:all .25s}
 .zadacha_gr1{background-image:url(../img/zadacha1.jpg)}

@@ -54,7 +54,8 @@ tr:before {
 }
 .section,
 section,
-header {
+header,
+.header {
     width : 100%;
     overflow : hidden;
     position : relative;
@@ -85,12 +86,14 @@ a {
     background: url(../mak_m.jpg) no-repeat top center;
     opacity: 0.5;
     position : absolute;
-    top : 0px;
+    top : 0;
     left : 0;
     z-index : 5;
     /* display : none; */
 }
-#hidden-box{display:none;}
+#hidden-box {
+    display : none;
+}
 .mobi {
     display : none;
 }
@@ -102,7 +105,7 @@ a {
     height : 660px;
     padding-top : 215px;
 }
-header {
+.header {
     position : absolute;
     top : 15px;
     left : 0;
@@ -712,7 +715,7 @@ header {
     background-color : rgba(41, 100, 113, 0.65);
     transition : all 0.25s;
 }
-.zach h4 {
+.zach h3 {
     font-size : 28px;
     color : #494949;
     text-align : left;
@@ -721,14 +724,14 @@ header {
     display : inline-block;
     float : left;
 }
-.zach:hover h4,
-.zadacha_gr1.active .zach h4,
-.zadacha_gr2.active .zach h4,
-.zadacha_gr3.active .zach h4,
-.zadacha_gr4.active .zach h4,
-.zadacha_gr5.active .zach h4,
-.zadacha_gr6.active .zach h4,
-.zadacha_gr7.active .zach h4 {
+.zach:hover h3,
+.zadacha_gr1.active .zach h3,
+.zadacha_gr2.active .zach h3,
+.zadacha_gr3.active .zach h3,
+.zadacha_gr4.active .zach h3,
+.zadacha_gr5.active .zach h3,
+.zadacha_gr6.active .zach h3,
+.zadacha_gr7.active .zach h3 {
     color : white;
 }
 .zach:hover span,

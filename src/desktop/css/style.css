@@ -82,14 +82,14 @@ a {
 }
 #maket {
     width : 100%;
-    height :14378px;
-    background: url(../mak_m.jpg) no-repeat top center;
-    opacity: 0.5;
+    height : 14378px;
+    background : url(../mak_m.jpg) no-repeat top center;
+    opacity : 0.5;
     position : absolute;
     top : 0;
     left : 0;
     z-index : 5;
-    /* display : none; */
+    display : none;
 }
 #hidden-box {
     display : none;
@@ -194,13 +194,13 @@ a {
     color : #296471;
     height : 45px;
     cursor : pointer;
-    transition : all 0.25s;
+            transition : all 0.25s;
     position : relative;
-    overflow: hidden;
+    overflow : hidden;
     -webkit-transition : -webkit-transform 0.3s, opacity 0.3s;
-    transition :         transform 0.3s, opacity 0.3s;
+            transition :         transform 0.3s, opacity 0.3s;
     -webkit-transition-timing-function : cubic-bezier(0.2, 1, 0.3, 1);
-    transition-timing-function : cubic-bezier(0.2, 1, 0.3, 1);
+            transition-timing-function : cubic-bezier(0.2, 1, 0.3, 1);
 }
 .btn:hover,
 .btn.active,
@@ -209,7 +209,7 @@ a {
 .zach p.span.active,
 .zach p.span:active {
     border-color : #296471;
-    background-color: rgba(41, 100, 113, 0.7);
+    background-color : #296471;
     color : white;
     transition : all 0.25s;
 }
@@ -478,7 +478,9 @@ a {
     letter-spacing : -1.2px;
     display : inline-block;
     float : left;
-    position : relative;
+    position: relative;
+    left:0;
+    top:0;
     z-index : 2;
 }
 .sec6 h2 span {
@@ -492,17 +494,20 @@ a {
     display : inline-block;
     width : 100%;
     margin-top : -167px;
+    /* float: right; */
 }
 .slid_lic_m {
     display : none;
 }
 .text_gr {
     text-align : left;
-    float : left;
+    float: none;
+    display:inline-block;
     width : 385px;
     margin-top : 107px;
     margin-right : 107px;
     position : relative;
+    vertical-align:top;
 }
 .text_gr h3 {
     font-size : 42px;
@@ -534,7 +539,8 @@ a {
     max-width : 600px;
     width : 600px;
     height : 620px;
-    float : left;
+    float : none;
+    display:inline-block;
     margin-right : -25px;
     background-size : contain;
 }
@@ -578,7 +584,8 @@ a {
 
 .slid_s {
     float : right;
-    display : none;
+    text-align:right;
+    /* display : none; */
 }
 
 .line {
@@ -605,9 +612,10 @@ a {
     text-align : center;
 }
 .slid_page {
-    margin-top : -46px;
     height : 108px;
     width : 100%;
+    position: relative;
+    z-index:4;
 }
 .slid_page a {
     display : inline-block;
@@ -617,6 +625,9 @@ a {
 .slid_page a img {
     position : relative;
     z-index : 3;
+    width : 108px;
+    height : 108px;
+    transition : all 0.25s;
 }
 .slid_page a.active img,
 .slid_page a:hover img {
@@ -627,15 +638,17 @@ a {
 .slid_page a:hover {
     margin : 0 -14px;
 }
+.slid_page a:hover {
+    position : relative;
+    z-index : 30;
+}
 .slid_page a.active img,
 .slid_page a:hover img {
     -webkit-box-shadow : 0 0 9px 0 rgba(0, 0, 0, 0.46);
        -moz-box-shadow : 0 0 9px 0 rgba(0, 0, 0, 0.46);
             box-shadow : 0 0 9px 0 rgba(0, 0, 0, 0.46);
     z-index : 4;
-}
-.slid_page a.active:after,
-.slid_page a:hover:after {
+}.slid_page a:after {
     content : '';
     width : 100%;
     height : 100%;
@@ -644,9 +657,15 @@ a {
     z-index : 4;
     top : 0;
     left : 0;
+    opacity : 0;
+    transition : all 0.25s;
     background-image : url(../img/plus.png);
     background-position : center;
     background-repeat : no-repeat;
+}
+
+.slid_page a:hover:after {
+    opacity : 1;
 }
 .sec7 {
     background-color : white;
@@ -765,7 +784,7 @@ a {
     background-position : 102px center;
     clear : both;
     transition : all 0.25s;
-    position: relative;
+    position : relative;
 }
 .zadacha_gr1 {
     background-image : url(../img/zadacha1.jpg);
@@ -1689,7 +1708,6 @@ button {
         margin : 2% 1% 2%;
     }
     .slid_page {
-        overflow : auto;
         width : 1200px;
     }
     .text_gr {
@@ -1959,6 +1977,11 @@ button {
         display : inline-block;
     }
 }
+@media (max-width: 755px) {
+    .slid_s{
+        text-align: center;
+    }
+}
 @media (max-width: 700px) {
     .sec3 {
         background-image : url(../img/bg_sec3_plan.jpg);
@@ -1966,10 +1989,8 @@ button {
     }
     .per_gr span {
     }
-    .slid_page {
-        position : absolute;
-        top : 60%;
-        z-index : 5;
+    .slid_scroll_w {
+        position: absolute;top:57%;
     }
     .spec1,
     .spec2,
@@ -2267,14 +2288,14 @@ button {
         margin : 0 0;
     }
     .head_info a {
-        font-size: 16px;
+        font-size : 16px;
         margin-right : 0;
-        letter-spacing: -0.8px;
+        letter-spacing : -0.8px;
     }
     .sec1 {
-        padding-top: 90px;
-        background-image: url(../img/bg_sec1_m.jpg);
-        height: 581px;
+        padding-top : 90px;
+        background-image : url(../img/bg_sec1_m.jpg);
+        height : 581px;
     }
     .spec1,
     .spec2,
@@ -2295,8 +2316,8 @@ button {
         float : none;
         display : inline-block;
     }
-    .slid_page {
-        top : 53%;
+    .slid_scroll_w {
+        top: 49%;
     }
     .popap {
         width : 100%;
@@ -2319,47 +2340,52 @@ button {
     .logo_diz {
         margin : 0 auto;
     }
-    header{
-	top: 0px;
-	padding: 7px 0;
-}
-.menu_btn{background-image: url(../img/menu_btn_m.png);width: 28px;height: 21px;margin: 15px 7%;}
-.head_info {
-	margin-top: 16px;
-}
-.sec1 h1 span{
-	font-size: 16px;
-	line-height: 24px;
-	margin-bottom: 5px;
-	margin-left: -1px;
-	width: 74%;
-	letter-spacing: -0.8px;
-}
-.sec1 h1{
-	margin-left: 3px;
-	letter-spacing: -2.3px;
-	line-height: 28px;
-}
-.btn_head{
-	margin-top: 21px;
-}
-.btn{
-	line-height: 43px;
-	letter-spacing: -1.6px;
-}
-.icon_gr img{
-	height: 40px;
-	margin-bottom: 12px;
-}
-.sec2 {
-	padding: 18px 0;
-}
-.icon_gr p{
-	font-size: 16px;
-	line-height: 16px;
-	letter-spacing: -0.5px;
-}
-.icon_gr{
-	margin: 2px 0px!important;
-}
+    header {
+        top : 0;
+        padding : 7px 0;
+    }
+    .menu_btn {
+        background-image : url(../img/menu_btn_m.png);
+        width : 28px;
+        height : 21px;
+        margin : 15px 7%;
+    }
+    .head_info {
+        margin-top : 16px;
+    }
+    .sec1 h1 span {
+        font-size : 16px;
+        line-height : 24px;
+        margin-bottom : 5px;
+        margin-left : -1px;
+        width : 74%;
+        letter-spacing : -0.8px;
+    }
+    .sec1 h1 {
+        margin-left : 3px;
+        letter-spacing : -2.3px;
+        line-height : 28px;
+    }
+    .btn_head {
+        margin-top : 21px;
+    }
+    .btn {
+        line-height : 43px;
+        letter-spacing : -1.6px;
+    }
+    .icon_gr img {
+        height : 40px;
+        margin-bottom : 12px;
+    }
+    .sec2 {
+        padding : 18px 0;
+    }
+    .icon_gr p {
+        font-size : 16px;
+        line-height : 16px;
+        letter-spacing : -0.5px;
+    }
+    .icon_gr {
+        margin : 2px 0!important;
+    }
 }

@@ -15,7 +15,7 @@ a::after,a::before,br::after,br::before,img::after,img::before,span::after,span:
 h1{font-size:1em;font-weight:inherit;text-align:center}
 body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
 a{text-decoration:none;color:inherit;outline:0!important}
-#maket{width:100%;height:14378px;opacity:1;position:absolute;top:0;left:0;z-index:5;display:none;background-position:50% 0;background-repeat:no-repeat no-repeat}
+#maket{width:100%;height:14378px;opacity:.5;position:absolute;top:0;left:0;z-index:5;display:none;background-position:50% 0;background-repeat:no-repeat no-repeat}
 #hidden-box{display:none}
 .mobi{display:none}
 .sec1{position:relative;z-index:2;-webkit-background-size:cover;background-size:cover;height:660px;padding-top:215px}
@@ -30,7 +30,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
 .sec1 h1{color:#494949;font-size:42px;letter-spacing:-2.2px;text-align:left;line-height:42px}
 .sec1 h1 span{font-size:18px;letter-spacing:-.9px;line-height:normal;margin-bottom:14px;display:inline-block}
 .btn_head{width:335px;float:left;margin-top:31px}
-.btn{border:2px solid #03467b;display:inline-block;letter-spacing:-.9px;line-height:39px;font-size:18px;color:#296471;height:45px;cursor:pointer;position:relative;-webkit-transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s;transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s}
+.btn{border:2px solid #03467b;display:inline-block;letter-spacing:-.9px;line-height:39px;font-size:18px;color:#296471;height:45px;cursor:pointer;position:relative;overflow:hidden;-webkit-transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s;transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s}
 .btn::after{content:attr(data-text);position:absolute;width:100%;height:100%;top:0;left:0;opacity:0;color:#3f51b5;-webkit-transform:translate3d(0,25%,0)}
 .sec2{background-color:#fff;position:relative;z-index:2;padding:80px 0 71px}
 .sec2 .icon_gr:nth-of-type(1){float:left;margin-left:.7%}
@@ -137,12 +137,23 @@ footer .info{display:inline-block;width:100%;position:relative;top:0;left:0;marg
 .btn_head{font-size:16px;width:301px;border:2px solid #fff;color:#fff}
 }
 @media (max-width:400px){.logo{margin:0}
-.head_info a{font-size:17px;margin-right:0}
-.sec1{padding-top:100px}
+.head_info a{font-size:16px;margin-right:0;letter-spacing:-.8px}
+.sec1{padding-top:90px;height:581px}
 .spec1,.spec10,.spec11,.spec2,.spec3,.spec4,.spec6,.spec7,.spec8,.spec9{width:100%;height:390px}
 .text_gr{width:100%;float:none;display:inline-block}
 .popap{width:100%}
 .btn_spec{width:100%;font-size:16px}
+header{top:0;padding:7px 0}
+.menu_btn{width:28px;height:21px;margin:15px 7%}
+.head_info{margin-top:16px}
+.sec1 h1 span{font-size:16px;line-height:24px;margin-bottom:5px;margin-left:-1px;width:74%;letter-spacing:-.8px}
+.sec1 h1{margin-left:3px;letter-spacing:-2.3px;line-height:28px}
+.btn_head{margin-top:21px}
+.btn{line-height:43px;letter-spacing:-1.6px}
+.icon_gr img{height:40px;margin-bottom:12px}
+.sec2{padding:18px 0}
+.icon_gr p{font-size:16px;line-height:16px;letter-spacing:-.5px}
+.icon_gr{margin:2px 0!important}
 }
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
@@ -160,7 +171,7 @@ a::after,a::before,br::after,br::before,img::after,img::before,span::after,span:
 h1{font-size:1em;font-weight:inherit;text-align:center}
 body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
 a{text-decoration:none;color:inherit;outline:0!important}
-#maket{width:100%;height:14378px;opacity:1;position:absolute;top:0;left:0;z-index:5;display:none;background-position:50% 0;background-repeat:no-repeat no-repeat}
+#maket{width:100%;height:14378px;opacity:.5;position:absolute;top:0;left:0;z-index:5;display:none;background-position:50% 0;background-repeat:no-repeat no-repeat}
 #hidden-box{display:none}
 .mobi{display:none}
 .sec1{position:relative;z-index:2;-webkit-background-size:cover;background-size:cover;height:660px;padding-top:215px}
@@ -175,7 +186,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
 .sec1 h1{color:#494949;font-size:42px;letter-spacing:-2.2px;text-align:left;line-height:42px}
 .sec1 h1 span{font-size:18px;letter-spacing:-.9px;line-height:normal;margin-bottom:14px;display:inline-block}
 .btn_head{width:335px;float:left;margin-top:31px}
-.btn{border:2px solid #03467b;display:inline-block;letter-spacing:-.9px;line-height:39px;font-size:18px;color:#296471;height:45px;cursor:pointer;position:relative;-webkit-transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s;transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s}
+.btn{border:2px solid #03467b;display:inline-block;letter-spacing:-.9px;line-height:39px;font-size:18px;color:#296471;height:45px;cursor:pointer;position:relative;overflow:hidden;-webkit-transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s;transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s}
 .btn::after{content:attr(data-text);position:absolute;width:100%;height:100%;top:0;left:0;opacity:0;color:#3f51b5;-webkit-transform:translate3d(0,25%,0)}
 .sec2{background-color:#fff;position:relative;z-index:2;padding:80px 0 71px}
 .sec2 .icon_gr:nth-of-type(1){float:left;margin-left:.7%}
@@ -282,12 +293,23 @@ footer .info{display:inline-block;width:100%;position:relative;top:0;left:0;marg
 .btn_head{font-size:16px;width:301px;border:2px solid #fff;color:#fff}
 }
 @media (max-width:400px){.logo{margin:0}
-.head_info a{font-size:17px;margin-right:0}
-.sec1{padding-top:100px}
+.head_info a{font-size:16px;margin-right:0;letter-spacing:-.8px}
+.sec1{padding-top:90px;height:581px}
 .spec1,.spec10,.spec11,.spec2,.spec3,.spec4,.spec6,.spec7,.spec8,.spec9{width:100%;height:390px}
 .text_gr{width:100%;float:none;display:inline-block}
 .popap{width:100%}
 .btn_spec{width:100%;font-size:16px}
+header{top:0;padding:7px 0}
+.menu_btn{width:28px;height:21px;margin:15px 7%}
+.head_info{margin-top:16px}
+.sec1 h1 span{font-size:16px;line-height:24px;margin-bottom:5px;margin-left:-1px;width:74%;letter-spacing:-.8px}
+.sec1 h1{margin-left:3px;letter-spacing:-2.3px;line-height:28px}
+.btn_head{margin-top:21px}
+.btn{line-height:43px;letter-spacing:-1.6px}
+.icon_gr img{height:40px;margin-bottom:12px}
+.sec2{padding:18px 0}
+.icon_gr p{font-size:16px;line-height:16px;letter-spacing:-.5px}
+.icon_gr{margin:2px 0!important}
 }
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
@@ -304,7 +326,7 @@ a::after,a::before,br::after,br::before,span::after,span::before{content:none}
 h1{font-size:1em;font-weight:inherit;text-align:center}
 body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
 a{text-decoration:none;color:inherit;outline:0!important}
-#maket{width:100%;height:14378px;opacity:1;position:absolute;top:0;left:0;z-index:5;display:none;background-position:50% 0;background-repeat:no-repeat no-repeat}
+#maket{width:100%;height:14378px;opacity:.5;position:absolute;top:0;left:0;z-index:5;display:none;background-position:50% 0;background-repeat:no-repeat no-repeat}
 #hidden-box{display:none}
 .sec1{position:relative;z-index:2;-webkit-background-size:cover;background-size:cover;height:660px;padding-top:215px}
 .header{position:absolute;top:15px;left:0;z-index:5;padding:13px 0}
@@ -318,7 +340,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
 .sec1 h1{color:#494949;font-size:42px;letter-spacing:-2.2px;text-align:left;line-height:42px}
 .sec1 h1 span{font-size:18px;letter-spacing:-.9px;line-height:normal;margin-bottom:14px;display:inline-block}
 .btn_head{width:335px;float:left;margin-top:31px}
-.btn{border:2px solid #03467b;display:inline-block;letter-spacing:-.9px;line-height:39px;font-size:18px;color:#296471;height:45px;cursor:pointer;position:relative;-webkit-transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s;transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s}
+.btn{border:2px solid #03467b;display:inline-block;letter-spacing:-.9px;line-height:39px;font-size:18px;color:#296471;height:45px;cursor:pointer;position:relative;overflow:hidden;-webkit-transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s;transition:-webkit-transform .3s cubic-bezier(.2,1,.3,1),opacity .3s}
 .btn::after{content:attr(data-text);position:absolute;width:100%;height:100%;top:0;left:0;opacity:0;color:#3f51b5;-webkit-transform:translate3d(0,25%,0)}
 .text_gr{text-align:left;float:left;width:385px;margin-top:107px;margin-right:107px;position:relative}
 .text_gr h3{font-size:42px;color:#494949;text-align:left;letter-spacing:-2.1px;line-height:42px;margin-bottom:8px}
@@ -464,10 +486,17 @@ button,input{border:none;outline:0}
 }
 @media (max-width:400px){.info{padding:10px}
 .logo{margin:0}
-.head_info a{font-size:17px;margin-right:0}
-.sec1{padding-top:100px}
+.head_info a{font-size:16px;margin-right:0;letter-spacing:-.8px}
+.sec1{padding-top:90px;height:581px}
 .spec1,.spec10,.spec11,.spec2,.spec3,.spec4,.spec6,.spec7,.spec8,.spec9{width:100%;height:390px}
 .text_gr{width:100%;float:none;display:inline-block}
 .popap{width:100%}
 .btn_spec{width:100%;font-size:16px}
+header{top:0;padding:7px 0}
+.menu_btn{width:28px;height:21px;margin:15px 7%}
+.head_info{margin-top:16px}
+.sec1 h1 span{font-size:16px;line-height:24px;margin-bottom:5px;margin-left:-1px;width:74%;letter-spacing:-.8px}
+.sec1 h1{margin-left:3px;letter-spacing:-2.3px;line-height:28px}
+.btn_head{margin-top:21px}
+.btn{line-height:43px;letter-spacing:-1.6px}
 }

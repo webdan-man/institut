@@ -3,8 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-        <title>Макет</title>
-        <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+        <title>Институт пластической хирургии и косметологии</title>
+        <meta name="description" content="Институт пластической хирургии и косметологии основан в 1937 году. Альянс технологий и традиций для Вашего красивого будущего.">
+        <meta name="keywords" content="центр пластической хирургии, центр косметологии и пластической хирургии, стоимость пластических операций, сколько стоит пластика носа, сделать пластическую операцию, сделать пластику носа, сайт пластической хирургии, пластический хирург цены">
+        <meta content="Институт пластической хирургии и косметологии." property="og:title">
+        <meta content="website" property="og:type">
+        <meta content="img/soc_img.jpg" property="og:image">
+        <meta content="Институт пластической хирургии и косметологии основан в 1937 году. Альянс технологий и традиций для Вашего красивого будущего." property="og:description">
+        <meta id="viewport" name="viewport" content="width=device-width">
+        <link type="image/x-icon" href="img/favicon.png" rel="shortcut icon">
         <style>
             <?php include('css/head.css');
             ?>
@@ -16,7 +23,7 @@
         <?php include('../track/head.php'); ?>
     </head>
     <body>
-        <header>
+        <div class="header">
             <div class="wrap">
                 <a class="logo" href="#"></a>
                 <div class="menu_btn"></div>
@@ -26,8 +33,8 @@
                     <span>Предварительная консультация</span>
                 </div>
             </div>
-        </header>
-        <section class="sec1">
+        </div>
+        <header class="sec1">
             <div class="wrap">
                 <div class="sec1_gr">
                     <h1>
@@ -35,7 +42,7 @@
                     <span class="btn btn_head">Записаться на предварительную консультацию</span>
                 </div>
             </div>
-        </section>
+        </header>
         <div class="sec2 section">
             <div class="wrap">
                 <div class="icon_gr">
@@ -314,43 +321,43 @@
                 </div>
                 <div class="zadacha_gr1 active">
                     <div class="zach">
-                        <h4>Пластическая хирургия</h4>
+                        <h3>Пластическая хирургия</h3>
                         <span>Подробнее</span>
                     </div>
                 </div>
                 <div class="zadacha_gr2">
                     <div class="zach">
-                        <h4>Косметология</h4>
+                        <h3>Косметология</h3>
                         <span>Подробнее</span>
                     </div>
                 </div>
                 <div class="zadacha_gr3">
                     <div class="zach">
-                        <h4>Поликлиника</h4>
+                        <h3>Поликлиника</h3>
                         <span>Подробнее</span>
                     </div>
                 </div>
                 <div class="zadacha_gr4">
                     <div class="zach">
-                        <h4>Лучевая диагностика и лучевая терапия</h4>
+                        <h3>Лучевая диагностика и лучевая терапия</h3>
                         <span>Подробнее</span>
                     </div>
                 </div>
                 <div class="zadacha_gr5">
                     <div class="zach">
-                        <h4>Стоматология</h4>
+                        <h3>Стоматология</h3>
                         <span>Подробнее</span>
                     </div>
                 </div>
                 <div class="zadacha_gr6">
                     <div class="zach">
-                        <h4>Лабораторная диагностика</h4>
+                        <h3>Лабораторная диагностика</h3>
                         <span>Подробнее</span>
                     </div>
                 </div>
                 <div class="zadacha_gr7">
                     <div class="zach">
-                        <h4>Check-up</h4>
+                        <h3>Check-up</h3>
                         <p class="new_z">New</p>
                         <span>Подробнее</span>
                     </div>
@@ -829,6 +836,25 @@
                             <span>После</span>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="vcard">
+                <div>
+                    <span class="category">Институт хирургии и косметологии</span>
+                    <span class="fn org">АО «ИПХ и К»</span>
+                </div>
+                <div class="adr">
+                    <span class="locality">г. Москва</span>,
+                    <span class="street-address">ул. Ольховская, д.27</span>
+                </div>
+                <div>Телефон:
+                    <span class="tel">+7 (495) 775-01-02</span>
+                </div>
+                <div>Мы работаем
+                    <span class="workhours">понедельник-воскресенье: 09.00 - 21.00</span>
+                    <span class="url">
+                        <span class="value-title" title="http://iphk-smas.ru"> </span>
+                    </span>
                 </div>
             </div>
         </div>

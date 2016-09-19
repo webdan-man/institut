@@ -1,0 +1,9 @@
+@font-face {
+    font-family : 'GillSansLight';
+    src : url('../fonts/GillSansLight.eot');
+    src : url('../fonts/GillSansLight.eot') format('embedded-opentype'),
+    url('../fonts/GillSansLight.woff2') format('woff2'),
+    url('../fonts/GillSansLight.woff') format('woff'),
+    url('../fonts/GillSansLight.ttf') format('truetype'),
+    url('../fonts/GillSansLight.svg#GillSansLight') format('svg');
+}

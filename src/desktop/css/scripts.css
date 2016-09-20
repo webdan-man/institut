@@ -1,3 +1,4 @@
+.button span.original,
 .a-btn span.original,
 .btn span.original {
     position : relative;
@@ -12,11 +13,13 @@
     color : #296471;
     display : block;
 }
+.button:hover  span.original,
 .a-btn:hover span.original,
 .btn:hover span.original {
     opacity : 0;
     top : -25%;
 }
+.button span.clone,
 .a-btn span.clone,
 .btn span.clone {
     padding-left : inherit;
@@ -31,6 +34,7 @@
     transform : translate3d(0, 25%, 0);
     color : white;
 }
+.button:hover span.clone,
 .a-btn:hover span.clone,
 .btn:hover span.clone {
     opacity : 1;
@@ -39,9 +43,83 @@
 .a-btn span.original {
     color : white;
 }
-.slid_scroll_w{
-    width:100%;
-    overflow:auto;    
+.slid_scroll_w {
+    width : 100%;
+    overflow : auto;
     margin-top : -46px;
-    height:145px;
+    height : 145px;
+    padding-top: 16px;
+}
+.arcticmodal-container,
+.arcticmodal-overlay {
+    position : fixed;
+    left : 0;
+    top : 0;
+    right : 0;
+    bottom : 0;
+    z-index : 1000;
+}
+.arcticmodal-container {
+    overflow : auto;
+    margin : 0;
+    padding : 0;
+    border : 0;
+    border-collapse : collapse;
+}
+:first-child + html .arcticmodal-container {
+    height : 100%;
+}
+.arcticmodal-container_i {
+    margin : 0 auto;
+    height : 100%;
+}
+.arcticmodal-container_i2 {
+    padding : 24px;
+    margin : 0;
+    border : 0;
+    vertical-align : middle;
+}
+.sec11 {
+    overflow : initial!important;
+    z-index : 3;
+}
+.error-input {
+    border : 1px solid red;
+}
+#okgo {
+    max-width : 320px;
+    text-align : center;
+    padding : 20px;
+    font-size : 20px;
+    background : white;
+    color : black;
+}
+.video iframe {
+    width : 100%;
+    height : 100%;
+}
+.slid_lic_m .bx-viewport {
+    height : 320px!important;
+}
+.slid_lic_m {
+    margin : 20px 30px!important;
+    text-align : center;
+}
+.slid_lic_m .lic img {
+    display : block;
+    margin : 0 auto;
+    position : relative;
+    left : -3px;
+}
+
+.sec1 #bgvid {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    min-width : 100%;
+    min-height : 100%;
+    width : auto;
+    height : auto;
+    z-index : -100;
+    transform : translate(-50%, -50%);
 }

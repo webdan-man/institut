@@ -30,7 +30,7 @@
                 <div class="head_info">
                     <a href="tel:+74991232233">+7 (499) 123-22-33</a>
                     <p>г. Москва, ул. Ольховская, 27</p>
-                    <span>Предварительная консультация</span>
+                    <span class="btn-link" data-event="frmh" data-frmid="Предварительная консультация(шапка)">Предварительная консультация</span>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 <div class="sec1_gr">
                     <h1>
                         <span>Институт пластической хирургии и косметологии основан в 1937 году</span><br>Альянс технологий и традиций<br>для Вашего красивого будущего </h1>
-                    <span class="btn btn_head">Записаться на предварительную консультацию</span>
+                    <span class="btn btn_head" data-event="frm1" data-frmid="Кнопка в первом блоке">Записаться на предварительную консультацию</span>
                 </div>
             </div>
         </header>
@@ -114,7 +114,7 @@
                         <span>Восстановлены или улучшены естественные эстетические пропорции</span>
                         <span>Восстанавливает тонус и каркасную функцию мышечно-апоневротического слоя</span>
                     </div>
-                    <span class="btn btn_sec4">Узнать подробнее</span>
+                    <span class="btn btn_sec4" data-event="frm4" data-frmid="Кнопка узнать подробнее 4 блок">Узнать подробнее</span>
                 </div>
             </div>
         </section>
@@ -143,7 +143,7 @@
                     <p>Бонус 3 дня и 2 ночи
                         <br>в Австрийском Центре Здоровья
                         <br>бесплатно</p>
-                    <span class="btn btn_sec5">Участвовать в акции</span>
+                    <span class="btn btn_sec5" data-event="frm5" data-frmid="Кнопка участвовать в акции 5 блок">Участвовать в акции</span>
                 </div>
             </div>
         </section>
@@ -162,7 +162,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_1" data-frmid="Кнопка записатся к доктору Павлюк Михаил Даниелович">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -173,7 +173,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_2" data-frmid="Кнопка записатся к доктору Липский Константин Борисович">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -184,7 +184,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_3" data-frmid="Кнопка записатся к доктору Фролов Станислав Александрович">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -195,7 +195,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_4" data-frmid="Кнопка записатся к доктору Никитин Олег Леонидович">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s active">
@@ -206,7 +206,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_5" data-frmid="Кнопка записатся к доктору Стенько Анна Германовна">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -217,7 +217,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_6" data-frmid="Кнопка записатся к доктору Грищенко Светлана Владимировна">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -228,7 +228,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_7" data-frmid="Кнопка записатся к доктору Захаров Антон Игоревич">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -239,7 +239,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_8" data-frmid="Кнопка записатся к доктору Авдошенко Ксения Евгеньевна">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -250,7 +250,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_9" data-frmid="Кнопка записатся к доктору Выговский Максим Павлович">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -261,7 +261,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_10" data-frmid="Кнопка записатся к доктору Стенько Анна Германовна">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                         <div class="slid_s">
@@ -272,7 +272,7 @@
                                 <span class="line"></span>
                                 <p>Дерматовенеролог, косметолог, доктор медицинских наук, профессор кафедры эстетической медицины РУДН, член-корреспондент РАЕН, заведующая отделением косметологии института пластической хирургии и косметологии.</p>
                                 <p>Стаж работы в дерматокосметологии 25 лет.</p>
-                                <span class="btn btn_spec">Записаться на предварительную консультацию</span>
+                                <span class="btn btn_spec" data-event="frm6_11" data-frmid="Кнопка записатся к доктору Змазова Валентина Геннадьевна">Записаться на предварительную консультацию</span>
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                         <span>Воспользуйтесь одной или несколькими<br>из 132 услуг нашей клиники</span>
                     </h2>
                 </div>
-                <div class="zadacha_gr1 active">
+                <div class="zadacha_gr1">
                     <div class="zach">
                         <h3>Пластическая хирургия</h3>
                         <p class="span a-btn">Подробнее</p>
@@ -372,7 +372,7 @@
             <div class="wrap">
                 <h2>Check-up — это полная диагностика<br>вашего организма</h2>
                 <h3>Пройдите Chek-up за 2 часа, чтобы<br>предупредить любые болезни</h3>
-                <span class="btn btn_check">Записаться на Check-up</span>
+                <span class="btn btn_check" data-event="frm8" data-frmid="Кнопка записаться на Check-up">Записаться на Check-up</span>
             </div>
         </section>
         <section class="sec9">
@@ -384,7 +384,7 @@
                         <h4>
                             <span>1 этап</span><br>Предварительная консультация</h4>
                         <p>На которой мы выявим все Ваши пожелания </p>
-                        <span class="btn btn_etap">Записаться на предварительную консультацию </span>
+                        <span class="btn btn_etap" data-event="frm9" data-frmid="Кнопка записаться 9 блок">Записаться на предварительную консультацию </span>
                     </div>
                     <img src="img/etap1.jpg" alt>
                 </div>
@@ -539,8 +539,8 @@
                             <p>Звание лауреата международной премии «Grand Prix Effie » в 2003 году за большой вклад в популяризацию и развитие новых направлений в пластической хирургии и косметологии</p>
                         </div>
                     </div>
-                    <div class="str_l"></div>
-                    <div class="str_r"></div>
+                    <div class="str_l" id="sld2l"></div>
+                    <div class="str_r" id="sld2r"></div>
                     <div class="pager_usl">
                         <a data-slide-index="0" href="#"></a>
                         <a class="active" data-slide-index="1" href="#"></a>
@@ -598,39 +598,40 @@
         <section class="sec14">
             <div class="wrap">
                 <h2>Абсолютно вся деятельность ИПХиК является лицензированной и законной</h2>
-                <div class="slid_lic">
-                    <div class="lic">
-                        <img src="img/lic1.png" alt>
-                    </div>
-                    <div class="lic">
-                        <img src="img/lic2.png" alt>
-                    </div>
-                    <div class="lic">
-                        <img src="img/lic3.png" alt>
-                    </div>
-                    <div class="lic">
-                        <img src="img/lic4.png" alt>
-                    </div>
-                </div>
                 <div class="slid_lic_m">
                     <div class="slid_lic">
-                        <div class="lic">
-                            <img src="img/lic1.png" alt>
-                        </div>
-                        <!--div class="lic">
-                        <img src="img/lic2.png" alt>
-                    </div>
-                    <div class="lic">
-                        <img src="img/lic3.png" alt>
-                    </div>
-                    <div class="lic">
-                        <img src="img/lic4.png" alt>
-                    </div-->
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic1.jpg">
+                            <img src="img/lic1_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic2.jpg">
+                            <img src="img/lic2_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic3.jpg">
+                            <img src="img/lic3_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic4.jpg">
+                            <img src="img/lic4_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic5.jpg">
+                            <img src="img/lic5_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic6.jpg">
+                            <img src="img/lic6_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic7.jpg">
+                            <img src="img/lic7_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic8.jpg">
+                            <img src="img/lic8_s.jpg" alt>
+                        </a>
+                        <a class="lic fancy" data-fancybox-group="1" href="img/lic9.jpg">
+                            <img src="img/lic9_s.jpg" alt>
+                        </a>
                     </div>
                     <div class="str_l"></div>
                     <div class="str_r"></div>
                 </div>
-                <span class="btn btn_lic">Записаться на предварительную консультацию </span>
+                <span class="btn btn_lic" data-event="frm14" data-frmid="Кнопка записаться 14 блок">Записаться на предварительную консультацию </span>
             </div>
         </section>
         <section class="sec15">
@@ -665,7 +666,7 @@
         <section class="sec16">
             <div class="wrap">
                 <h2>Остались вопросы?<br>Оставьте заявку<br>и мы свяжемся с Вами</h2>
-                <span class="btn btn_vop">Записаться на предварительную консультацию</span>
+                <span class="btn btn_vop" data-event="frm16" data-frmid="Кнопка записаться(остались вопросы?) 16 блок">Записаться на предварительную консультацию</span>
             </div>
         </section>
         <section class="map">
@@ -705,11 +706,14 @@
                 </div>
                 <span class="btn btn_foot">Записаться на предварительную консультацию</span>
                 <span class="polit">Политика конфеденциальности</span>
-                <a class="logo_diz" href="#">Сайт разработан</a>
+                <a class="logo_diz" href="http://sdcreative.ru/" target="_blank">Сайт разработан</a>
             </div>
         </footer>
         <div id="hidden-box">
-            <div class="popap">
+            <div id="okgo">
+                <p>Спасибо за заявку, мы свяжемся с Вами в ближайшее время</p>
+            </div>
+            <div class="popap" id="pop_form">
                 <h3>Записаться на предварительное<br>обследование</h3>
                 <p>Заполните данную форму,
                     <br>и мы свяжемся с вами в ближайшее
@@ -718,7 +722,9 @@
                     <input name="name" type="text" placeholder="Ваше Имя">
                     <input name="phone" type="text" placeholder="Ваш телефон">
                     <input name="usluga" type="text" placeholder="Какой тип услуги интересует?">
-                    <button type="submit" value="Записаться">Записаться</button>
+                    <input name="event" type="hidden">
+                    <input name="frmid" type="hidden">
+                    <div class="button">Записаться</div>
                 </form>
             </div>
             <div class="pop_pl">
@@ -862,7 +868,7 @@
                 </div>
             </div>
         </div>
-        <div id="maket"></div>
+        <!--div id="maket"></div-->
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
         <script src="js/init.js"></script>
         <?php include('../track/body.php'); ?>

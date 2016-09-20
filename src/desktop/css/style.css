@@ -478,9 +478,9 @@ a {
     letter-spacing : -1.2px;
     display : inline-block;
     float : left;
-    position: relative;
-    left:0;
-    top:0;
+    position : relative;
+    left : 0;
+    top : 0;
     z-index : 2;
 }
 .sec6 h2 span {
@@ -497,17 +497,17 @@ a {
     /* float: right; */
 }
 .slid_lic_m {
-    display : none;
+    /* display : none; */
 }
 .text_gr {
     text-align : left;
-    float: none;
-    display:inline-block;
+    float : none;
+    display : inline-block;
     width : 385px;
     margin-top : 107px;
     margin-right : 107px;
     position : relative;
-    vertical-align:top;
+    vertical-align : top;
 }
 .text_gr h3 {
     font-size : 42px;
@@ -540,7 +540,7 @@ a {
     width : 600px;
     height : 620px;
     float : none;
-    display:inline-block;
+    display : inline-block;
     margin-right : -25px;
     background-size : contain;
 }
@@ -584,7 +584,7 @@ a {
 
 .slid_s {
     float : right;
-    text-align:right;
+    text-align : right;
     /* display : none; */
 }
 
@@ -614,29 +614,33 @@ a {
 .slid_page {
     height : 108px;
     width : 100%;
-    position: relative;
-    z-index:4;
+    position : relative;
+    z-index : 4;
 }
 .slid_page a {
     display : inline-block;
     vertical-align : middle;
     position : relative;
+    /* left: -14px; */
+    /* right: -14px; */
 }
 .slid_page a img {
     position : relative;
     z-index : 3;
-    width : 108px;
-    height : 108px;
+    width: 108px;
+    height: 108px;
     transition : all 0.25s;
 }
 .slid_page a.active img,
 .slid_page a:hover img {
-    width : 129px;
-    height : 129px;
+    /* width : 129px; */
+    /* height : 129px; */
 }
 .slid_page a.active,
 .slid_page a:hover {
-    margin : 0 -14px;
+    /* margin : 0 -14px; */
+    transform: scale(1.2);
+    z-index: 30;
 }
 .slid_page a:hover {
     position : relative;
@@ -709,6 +713,7 @@ a {
     margin : 10px 10px;
     position : relative;
     z-index : 3;
+    overflow : hidden;
 }
 .zach {
     padding-top : 26px;
@@ -716,6 +721,8 @@ a {
     width : 100%;
     height : 100%;
     transition : all 0.25s;
+    position : relative;
+    z-index : 2;
 }
 
 .zadacha_gr1.active .zach,
@@ -786,26 +793,53 @@ a {
     transition : all 0.25s;
     position : relative;
 }
-.zadacha_gr1 {
+.zadacha_gr1:after,
+.zadacha_gr2:after,
+.zadacha_gr3:after,
+.zadacha_gr4:after,
+.zadacha_gr5:after,
+.zadacha_gr6:after,
+.zadacha_gr7:after {
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    z-index : 1;
+    top : 0;
+    left : 0;
+    transition : transform 0.25s;
+}
+.zadacha_gr1:hover:after,
+.zadacha_gr2:hover:after,
+.zadacha_gr3:hover:after,
+.zadacha_gr4:hover:after,
+.zadacha_gr5:hover:after,
+.zadacha_gr6:hover:after,
+.zadacha_gr7:hover:after {
+    transform : scale(1.05);
+}
+.zadacha_gr1:after {
     background-image : url(../img/zadacha1.jpg);
 }
-.zadacha_gr2 {
+.zadacha_gr2:after {
     background-image : url(../img/zadacha2.jpg);
 }
-.zadacha_gr3 {
+.zadacha_gr3:after {
     background-image : url(../img/zadacha3.jpg);
 }
-.zadacha_gr4 {
+.zadacha_gr4:after {
     background-image : url(../img/zadacha4.jpg);
     width : 780px;
 }
-.zadacha_gr5 {
+.zadacha_gr4 {
+    width : 780px;
+}
+.zadacha_gr5:after {
     background-image : url(../img/zadacha5.jpg);
 }
-.zadacha_gr6 {
+.zadacha_gr6:after {
     background-image : url(../img/zadacha6.jpg);
 }
-.zadacha_gr7 {
+.zadacha_gr7:after {
     background-image : url(../img/zadacha7.jpg);
 }
 .slid_lic {
@@ -1101,13 +1135,17 @@ a {
     width : 24%;
     display : inline-block;
     vertical-align : top;
-    margin : 0 35px;
+    /*margin : 0 35px;*/
+    /* max-width : 330px; */
+    height : 100%;
+    position : relative;
 }
 
 .slider_usl_gr {
     width : 100%;
     margin-top : 60px;
     position : relative;
+    padding : 0 40px;
 }
 .desc {
     display : inline-block;
@@ -1121,6 +1159,8 @@ a {
 }
 .slider_usl {
     width : 100%;
+    position : relative;
+    /* margin:0 30px; */
 }
 
 .pager_usl {
@@ -1216,7 +1256,12 @@ a {
 .lic {
     display : inline-block;
     vertical-align : top;
-    margin : 53px 45px 40px;
+    background-image : url(../img/lic_bg.jpg);
+    height : 284px;
+    padding-top : 20px;
+}
+.slid_lic_m {
+    margin : 53px 0 40px;
 }
 .slid_bg {
     width : 100%;
@@ -1457,7 +1502,7 @@ form input {
     letter-spacing : -0.9px;
     color : #464646;
 }
-form button {
+form .button {
     border : 2px solid #03467b;
     width : 254px;
     height : 45px;
@@ -1466,6 +1511,14 @@ form button {
     color : #1990db;
     margin-top : 18px;
     letter-spacing : -0.9px;
+    margin : 18px auto 0;
+    line-height : 41px;
+    position : relative;
+    cursor : pointer;
+    transition : all 0.25s;
+}
+form .button:hover {
+    background-color : #296471;
 }
 ::-webkit-input-placeholder {
     color : #7a7a7a;
@@ -1611,16 +1664,13 @@ button {
     margin-right : 0;
 }
 .year_h {
-    -webkit-box-shadow : 0 1px 8px 0 rgba(0, 0, 0, 0.2);
-       -moz-box-shadow : 0 1px 8px 0 rgba(0, 0, 0, 0.2);
-            box-shadow : 0 1px 8px 0 rgba(0, 0, 0, 0.2);
     padding : 42px 12px 0 43px;
     width : 416px;
     position : absolute;
     display : none;
     text-align : left;
     top : 25px;
-    left : -208px;
+    left : -197px;
     z-index : 3;
 }
 .year_h p {
@@ -1725,8 +1775,8 @@ button {
     .sec11_r {
         width : 72%;
     }
-    .lic {
-        margin : 53px 2% 40px;
+    .slid_lic_m {
+        margin : 53px 0 40px;
     }
 }
 @media (max-width: 1100px) {
@@ -1794,10 +1844,11 @@ button {
     }
     .slid_u {
         width : 28%;
+        height : 400px;
         margin : 0 10px;
     }
-    .lic {
-        margin : 40px 0.8% 40px;
+    .slid_lic_m {
+        margin : 40px 0 40px;
     }
     .ons_gr {
         margin : 0 0.5%;
@@ -1839,8 +1890,8 @@ button {
     .ons_gr p {
         margin-top : 20px;
     }
-    .lic {
-        margin : 20px 6% 20px!important;
+    .slid_lic_m {
+        margin : 20px 0 20px!important;
     }
     .et_text {
         width : 490px;
@@ -1882,7 +1933,7 @@ button {
         margin-left : 45px;
     }
     .yea_gr:nth-of-type(1) {
-        margin-left : -70px;
+        margin-left : -40px;
     }
 }
 @media (max-width: 900px) {
@@ -1978,8 +2029,8 @@ button {
     }
 }
 @media (max-width: 755px) {
-    .slid_s{
-        text-align: center;
+    .slid_s {
+        text-align : center;
     }
 }
 @media (max-width: 700px) {
@@ -1990,7 +2041,8 @@ button {
     .per_gr span {
     }
     .slid_scroll_w {
-        position: absolute;top:57%;
+        position : absolute;
+        top : 53%;
     }
     .spec1,
     .spec2,
@@ -2054,10 +2106,10 @@ button {
         margin-bottom : 30px;
     }
     .desc {
-        display : none;
+        /* display : none; */
     }
     .mobi {
-        display : inline-block;
+        display : none;
     }
     .slid_u {
         width : 80%;
@@ -2103,9 +2155,9 @@ button {
     .year {
         display : none;
     }
-    .lic {
+    /* .lic {
         margin : 20px 3% 20px!important;
-    }
+    }*/
     .map .info {
         display : none;
     }
@@ -2239,6 +2291,7 @@ button {
     .slid_lic_m .slid_lic,
     .slid_lic_m {
         display : inline-block;
+        /* height: 370px; */
     }
     .slid_lic_m .str_l,
     .slid_lic_m .str_r {
@@ -2317,7 +2370,7 @@ button {
         display : inline-block;
     }
     .slid_scroll_w {
-        top: 49%;
+        top : 49%;
     }
     .popap {
         width : 100%;

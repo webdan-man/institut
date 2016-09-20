@@ -47,8 +47,10 @@
     width : 100%;
     overflow : auto;
     margin-top : -46px;
-    height : 145px;
-    padding-top: 16px;
+    height: 165px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    font-size: 0;
 }
 .arcticmodal-container,
 .arcticmodal-overlay {
@@ -104,6 +106,7 @@
 .slid_lic_m {
     margin : 20px 30px!important;
     text-align : center;
+    height: 284px;
 }
 .slid_lic_m .lic img {
     display : block;
@@ -122,4 +125,32 @@
     height : auto;
     z-index : -100;
     transform : translate(-50%, -50%);
+}
+.map .map-w{
+	position: absolute;
+	top: -50px;
+	width: 100%;
+	bottom: 0;
+}
+.map .map-w iframe#map{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.sec7 .wrap>*{
+	transition: all 0.25s;
+}
+
+.animate.sec7 .wrap>*{
+	opacity: 0;
+}
+#popup-animation{
+	z-index: -120;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: white;
 }

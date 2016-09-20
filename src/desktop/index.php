@@ -326,44 +326,44 @@
                 <div class="zadacha_gr1">
                     <div class="zach">
                         <h3>Пластическая хирургия</h3>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_1" data-frmid="Кнопка подробнее Пластическая хирургия">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr2">
                     <div class="zach">
                         <h3>Косметология</h3>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_2" data-frmid="Кнопка подробнее Косметология">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr3">
                     <div class="zach">
                         <h3>Поликлиника</h3>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_3" data-frmid="Кнопка подробнее Поликлиника">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr4">
                     <div class="zach">
                         <h3>Лучевая диагностика и лучевая терапия</h3>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_4" data-frmid="Кнопка подробнее Лучевая диагностика и лучевая терапия">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr5">
                     <div class="zach">
                         <h3>Стоматология</h3>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_5" data-frmid="Кнопка подробнее Стоматология">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr6">
                     <div class="zach">
                         <h3>Лабораторная диагностика</h3>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_6" data-frmid="Кнопка подробнее Лабораторная диагностика">Подробнее</p>
                     </div>
                 </div>
                 <div class="zadacha_gr7">
                     <div class="zach">
                         <h3>Check-up</h3>
                         <p class="new_z">New</p>
-                        <p class="span a-btn">Подробнее</p>
+                        <p class="span a-btn" data-event="frm7_7" data-frmid="Кнопка подробнее Check-up">Подробнее</p>
                     </div>
                 </div>
             </div>
@@ -600,31 +600,31 @@
                 <h2>Абсолютно вся деятельность ИПХиК является лицензированной и законной</h2>
                 <div class="slid_lic_m">
                     <div class="slid_lic">
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic1.jpg">
+                        <a class="lic fancy" href="img/lic1.jpg">
                             <img src="img/lic1_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic2.jpg">
+                        <a class="lic fancy" href="img/lic2.jpg">
                             <img src="img/lic2_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic3.jpg">
+                        <a class="lic fancy" href="img/lic3.jpg">
                             <img src="img/lic3_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic4.jpg">
+                        <a class="lic fancy" href="img/lic4.jpg">
                             <img src="img/lic4_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic5.jpg">
+                        <a class="lic fancy" href="img/lic5.jpg">
                             <img src="img/lic5_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic6.jpg">
+                        <a class="lic fancy" href="img/lic6.jpg">
                             <img src="img/lic6_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic7.jpg">
+                        <a class="lic fancy" href="img/lic7.jpg">
                             <img src="img/lic7_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic8.jpg">
+                        <a class="lic fancy" href="img/lic8.jpg">
                             <img src="img/lic8_s.jpg" alt>
                         </a>
-                        <a class="lic fancy" data-fancybox-group="1" href="img/lic9.jpg">
+                        <a class="lic fancy" href="img/lic9.jpg">
                             <img src="img/lic9_s.jpg" alt>
                         </a>
                     </div>
@@ -670,22 +670,22 @@
             </div>
         </section>
         <section class="map">
-            <div class="wrap">
-                <div class="point"></div>
-                <div class="info">
-                    <h2>Контакты</h2>
-                    <div class="inf_t">
-                        <p>Телефон:</p>
-                        <span>+7 (495) 775 01 02,<br>+7 (495) 775 01 03</span>
-                    </div>
-                    <div class="inf_t">
-                        <p>Адрес:</p>
-                        <span>105066, г. Москва,<br>Ольховская ул., д. 27</span>
-                    </div>
-                    <p>м. Комсомольская, м. Красносельская
-                        <br>м. Бауманская</p>
-                    <p>E-mail: iphk@iphk.ru</p>
+            <div class="info">
+                <h2>Контакты</h2>
+                <div class="inf_t">
+                    <p>Телефон:</p>
+                    <span>+7 (495) 775 01 02,<br>+7 (495) 775 01 03</span>
                 </div>
+                <div class="inf_t">
+                    <p>Адрес:</p>
+                    <span>105066, г. Москва,<br>Ольховская ул., д. 27</span>
+                </div>
+                <p>м. Комсомольская, м. Красносельская
+                    <br>м. Бауманская</p>
+                <p>E-mail: iphk@iphk.ru</p>
+            </div>
+            <div class="map-w">
+                <iframe src="ajax/map.html" frameborder="0" id="map"></iframe>   
             </div>
         </section>
         <footer>
@@ -867,6 +867,9 @@
                     </span>
                 </div>
             </div>
+        </div>
+        <div id="popup-animation">
+            
         </div>
         <!--div id="maket"></div-->
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>

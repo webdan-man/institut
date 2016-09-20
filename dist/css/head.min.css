@@ -52,7 +52,7 @@ footer .info{display:none}
 form input{border:1px solid #b2b3b8;width:254px;height:45px;margin-top:15px;font-size:18px;text-align:center;letter-spacing:-.9px;color:#464646}
 form .button{border:2px solid #03467b;width:254px;height:45px;background-color:#fff;font-size:18px;color:#1990db;letter-spacing:-.9px;margin:18px auto 0;line-height:41px;position:relative;cursor:pointer;transition:all .25s;-webkit-transition:all .25s;background-position:initial initial;background-repeat:initial initial}
 input{border:none;outline:0}
-.pop_pl{max-width:1188px;width:100%;min-height:706px;background-color:#fff;position:relative;z-index:3;text-align:center;font-size:0;margin:0 auto;padding:40px 0}
+.pop_pl{max-width:1188px;width:100%;min-height:706px;background-color:#fff;position:relative;z-index:3;text-align:center;font-size:0;margin:0 auto;padding:40px 0;opacity:0}
 .pop_pl h3{font-size:24px;color:#1990db;letter-spacing:-1.2px}
 .menu_p{float:left;margin-top:79px;width:37%}
 .menu_p h4{font-size:42px;color:#1990db;text-align:left;margin-left:1px;letter-spacing:-2.1px}
@@ -145,6 +145,7 @@ header{top:0;padding:7px 0}
 .icon_gr{margin:2px 0!important}
 }
 #okgo{max-width:320px;text-align:center;padding:20px;font-size:20px;background-color:#fff;color:#000;background-position:initial initial;background-repeat:initial initial}
+#popup-animation{z-index:-120;top:0;left:0;position:absolute;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
 body{margin:0}
@@ -198,7 +199,7 @@ footer .info{display:none}
 form input{border:1px solid #b2b3b8;width:254px;height:45px;margin-top:15px;font-size:18px;text-align:center;letter-spacing:-.9px;color:#464646}
 form .button{border:2px solid #03467b;width:254px;height:45px;background-color:#fff;font-size:18px;color:#1990db;letter-spacing:-.9px;margin:18px auto 0;line-height:41px;position:relative;cursor:pointer;transition:all .25s;-webkit-transition:all .25s;background-position:initial initial;background-repeat:initial initial}
 input{border:none;outline:0}
-.pop_pl{max-width:1188px;width:100%;min-height:706px;background-color:#fff;position:relative;z-index:3;text-align:center;font-size:0;margin:0 auto;padding:40px 0}
+.pop_pl{max-width:1188px;width:100%;min-height:706px;background-color:#fff;position:relative;z-index:3;text-align:center;font-size:0;margin:0 auto;padding:40px 0;opacity:0}
 .pop_pl h3{font-size:24px;color:#1990db;letter-spacing:-1.2px}
 .menu_p{float:left;margin-top:79px;width:37%}
 .menu_p h4{font-size:42px;color:#1990db;text-align:left;margin-left:1px;letter-spacing:-2.1px}
@@ -291,6 +292,7 @@ header{top:0;padding:7px 0}
 .icon_gr{margin:2px 0!important}
 }
 #okgo{max-width:320px;text-align:center;padding:20px;font-size:20px;background-color:#fff;color:#000;background-position:initial initial;background-repeat:initial initial}
+#popup-animation{z-index:-120;top:0;left:0;position:absolute;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
 body{margin:0}
@@ -335,7 +337,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
 .yea_gr:nth-of-type(1){margin-left:-20px}
 .yea_gr:nth-of-type(9){margin-right:0}
 .dat_y::before{content:'';border:2px solid #296471;width:12px;height:12px;position:absolute;background-color:#fff;-webkit-border-top-left-radius:50%;border-top-left-radius:50%;-webkit-border-top-right-radius:50%;border-top-right-radius:50%;-webkit-border-bottom-right-radius:50%;border-bottom-right-radius:50%;-webkit-border-bottom-left-radius:50%;border-bottom-left-radius:50%;top:-27px;left:12px}
-.info{background-color:rgba(255,255,255,.8);width:460px;height:382px;left:50%;top:50%;position:absolute;margin-left:-29px;margin-top:-172px;padding-top:34px;padding-left:63px}
+.info{background-color:rgba(255,255,255,.8);width:460px;height:382px;left:50%;top:50%;position:absolute;margin-left:-29px;margin-top:-172px;padding-top:34px;padding-left:63px;z-index:2}
 .info h2{font-size:42px;color:#296471;text-align:left;letter-spacing:-2px;margin-bottom:21px}
 .info p{color:#494949;font-size:24px;text-align:left;margin-left:2px;letter-spacing:-.6px;line-height:32px;display:inline-block;vertical-align:top;float:left}
 .info span{display:inline-block;letter-spacing:-.6px;line-height:32px;color:#494949;font-size:24px;text-align:left;float:left;margin-left:6px}
@@ -347,7 +349,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
 form input{border:1px solid #b2b3b8;width:254px;height:45px;margin-top:15px;font-size:18px;text-align:center;letter-spacing:-.9px;color:#464646}
 form .button{border:2px solid #03467b;width:254px;height:45px;background-color:#fff;font-size:18px;color:#1990db;letter-spacing:-.9px;margin:18px auto 0;line-height:41px;position:relative;cursor:pointer;transition:all .25s;-webkit-transition:all .25s;background-position:initial initial;background-repeat:initial initial}
 input{border:none;outline:0}
-.pop_pl{max-width:1188px;width:100%;min-height:706px;background-color:#fff;position:relative;z-index:3;text-align:center;font-size:0;margin:0 auto;padding:40px 0}
+.pop_pl{max-width:1188px;width:100%;min-height:706px;background-color:#fff;position:relative;z-index:3;text-align:center;font-size:0;margin:0 auto;padding:40px 0;opacity:0}
 .pop_pl h3{font-size:24px;color:#1990db;letter-spacing:-1.2px}
 .menu_p{float:left;margin-top:79px;width:37%}
 .menu_p h4{font-size:42px;color:#1990db;text-align:left;margin-left:1px;letter-spacing:-2.1px}
@@ -448,3 +450,4 @@ header{top:0;padding:7px 0}
 .btn{line-height:43px;letter-spacing:-1.6px}
 }
 #okgo{max-width:320px;text-align:center;padding:20px;font-size:20px;background-color:#fff;color:#000;background-position:initial initial;background-repeat:initial initial}
+#popup-animation{z-index:-120;top:0;left:0;position:absolute;background-color:#fff;background-position:initial initial;background-repeat:initial initial}

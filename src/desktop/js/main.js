@@ -16,45 +16,48 @@ function open_popup(elem) {
     $('#pop_form').arcticmodal();
 }
 
-function animate_popup(){
+function animate_popup() {
 
-	var $elem = $('.cur_opened');
+    var $elem = $('.cur_opened');
 
-	$('#popup-animation').removeAttr('style');
+    $('#popup-animation').removeAttr('style');
 
-	//$('#hidden-box .pop_pl').clone().appendTo('#popup-animation')
-	var $pop = $('.arcticmodal-container_i2 .pop_pl');
+    //$('#hidden-box .pop_pl').clone().appendTo('#popup-animation')
+    var $pop = $('.arcticmodal-container_i2 .pop_pl');
 
-	var e_width = $elem.outerWidth();
-	var e_height = $elem.outerHeight();
-	
-	var e_left = $elem.offset().left;
-	var e_top = $elem.offset().top;
-	
-	var p_width = $pop.outerWidth();
-	var p_height = $pop.outerHeight();
+    var e_width = $elem.outerWidth();
+    var e_height = $elem.outerHeight();
 
-	var p_left = $pop.offset().left;
-	var p_top = $pop.offset().top;
-	
-	//$('#popup-animation').html('')
-	$('#popup-animation').css({'z-index':'10000',
-										'top': e_top+'px',
-										'left':e_left+'px',
-										'width':e_width+'px',
-										'height':e_height+'px'
-	})
-	$('#popup-animation').animate({
-		'top': p_top+'px',
-		'left':p_left+'px',
-		'width':p_width+'px',
-		'height':p_height+'px'},
-		300, function() {
-		$('.arcticmodal-container_i2 .pop_pl').css('opacity',1);
-		$('#popup-animation').css('z-index','999');
-	});
+    var e_left = $elem.offset().left;
+    var e_top = $elem.offset().top;
 
-	console.log(e_width,e_height,e_left,e_top,p_width,p_height,p_left,p_top);
+    var p_width = $pop.outerWidth();
+    var p_height = $pop.outerHeight();
+
+    var p_left = $pop.offset().left;
+    var p_top = $pop.offset().top;
+
+    //$('#popup-animation').html('')
+    $('#popup-animation').css({
+        'z-index': '10000',
+        'top': e_top + 'px',
+        'left': e_left + 'px',
+        'width': e_width + 'px',
+        'height': e_height + 'px'
+    })
+    $('#popup-animation').animate({
+            'top': p_top + 'px',
+            'left': p_left + 'px',
+            'width': p_width + 'px',
+            'height': p_height + 'px'
+        },
+        300,
+        function() {
+            $('.arcticmodal-container_i2 .pop_pl').css('opacity', 1);
+            $('#popup-animation').css('z-index', '999');
+        });
+
+    console.log(e_width, e_height, e_left, e_top, p_width, p_height, p_left, p_top);
 
 }
 
@@ -97,7 +100,7 @@ function submit_track_event(event) {
 
 function init_bg_video() {
     if (!isMobile) {
-        $('<video poster="img/bg_sec1.jpg" id="bgvid" playsinline autoplay muted loop><source src="js/video.mp4" type="video/mp4"></video>').appendTo('.sec1');
+        $('<video id="bgvid" playsinline autoplay muted loop><source src="js/video.mp4" type="video/mp4"></video>').appendTo('.sec1');
     }
 }
 init_bg_video();
@@ -245,39 +248,43 @@ $(document).ready(function() {
         $(this).closest('.video').html('').append('<iframe src="https://www.youtube.com/embed/2TzT3jKsqu0?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>');
     });
 
-    $('.yea_gr').mouseover(function(){
-    	var $plaw = $('.year_h:visible')
-    	var to_left = $plaw.offset().left;
-    	var to_right = $(window).width() - $plaw.offset().left -  $plaw.outerWidth();
-    	$plaw.removeAttr('style');
-    	if (to_left<0) {$plaw.css('margin-left',-(to_left)+'px')}
-    	if (to_right<0) {$plaw.css('margin-left',to_right+'px')}
-    	console.log(to_right,to_left);
-    	
+    $('.yea_gr').mouseover(function() {
+        var $plaw = $('.year_h:visible')
+        var to_left = $plaw.offset().left;
+        var to_right = $(window).width() - $plaw.offset().left - $plaw.outerWidth();
+        $plaw.removeAttr('style');
+        if (to_left < 0) {
+            $plaw.css('margin-left', -(to_left) + 'px')
+        }
+        if (to_right < 0) {
+            $plaw.css('margin-left', to_right + 'px')
+        }
+        console.log(to_right, to_left);
+
     });
-    $('.yea_gr').mouseleave(function(){
-    	$('.year_h').removeAttr('style');
-    	
+    $('.yea_gr').mouseleave(function() {
+        $('.year_h').removeAttr('style');
+
     });
 
 
-   	/*$('.a-btn').click(function(){
-   		
-   		$(this).closest('.zach').addClass('cur_opened');
+    /*$('.a-btn').click(function(){
+    	
+    	$(this).closest('.zach').addClass('cur_opened');
 
-   		$('.sec7').addClass('animate');
-   		
+    	$('.sec7').addClass('animate');
+    	
 
-   		$('.pop_pl').arcticmodal({
-   			afterOpen:function(){
-   				animate_popup()
-   			},
-   			afterClose:function(){
-   				$('.sec7').removeClass('animate');
-   				$('.zach').removeClass('cur_opened');
-   			}
-   		});
-   	});*/
+    	$('.pop_pl').arcticmodal({
+    		afterOpen:function(){
+    			animate_popup()
+    		},
+    		afterClose:function(){
+    			$('.sec7').removeClass('animate');
+    			$('.zach').removeClass('cur_opened');
+    		}
+    	});
+    });*/
 
     $.get("http://ipinfo.io", function(response) {
         geo_url = 'http://ipgeobase.ru:7020/geo?ip=' + response.ip;
@@ -350,5 +357,6 @@ $(document).ready(function() {
         $(this).closest('form').submit();
     });
 
+    $('<iframe id="map" src="ajax/map.html" frameborder="0"></iframe>').appendTo('.map .map-w');
 
 });

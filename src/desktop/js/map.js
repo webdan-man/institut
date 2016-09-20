@@ -4,23 +4,23 @@ google.maps.event.addDomListener(window, 'load', init);
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    var bounds  = new google.maps.LatLngBounds();
-    var center = new google.maps.LatLng(55.77556115429107,37.671939364417965);
+    var bounds = new google.maps.LatLngBounds();
+    var center = new google.maps.LatLng(55.77556115429107, 37.671939364417965);
     bounds.extend(center);
-    var loc = new google.maps.LatLng(55.77556115429107,37.669339364417965);
+    var loc = new google.maps.LatLng(55.77556115429107, 37.669339364417965);
     bounds.extend(loc);
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         zoom: 17,
         scrollwheel: false,
-        streetViewControl: false, 
+        streetViewControl: false,
         panControl: true,
         panControlOptions: {
-          position: google.maps.ControlPosition.TOP_RIGHT
+            position: google.maps.ControlPosition.TOP_RIGHT
         },
         zoomControl: true,
         zoomControlOptions: {
-          position: google.maps.ControlPosition.LEFT_BOTTOM
+            position: google.maps.ControlPosition.LEFT_BOTTOM
         },
 
         // The latitude and longitude to center the map (always required)
@@ -109,6 +109,6 @@ function init() {
         },
         title: 'Fortis'
     });
-    
+
     map.fitBounds(bounds);
 }

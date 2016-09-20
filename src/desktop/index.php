@@ -685,7 +685,6 @@
                 <p>E-mail: iphk@iphk.ru</p>
             </div>
             <div class="map-w">
-                <iframe src="ajax/map.html" frameborder="0" id="map"></iframe>   
             </div>
         </section>
         <footer>
@@ -869,7 +868,6 @@
             </div>
         </div>
         <div id="popup-animation">
-            
         </div>
         <!--div id="maket"></div-->
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>

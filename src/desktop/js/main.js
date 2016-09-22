@@ -1,3 +1,11 @@
+function hfixed() {
+    if ($(window).scrollTop() > 15) {
+        $('body').addClass('h-fixed');
+    } else {
+        $('body').removeClass('h-fixed');
+    }
+}
+
 function init_buttons(selector) {
     $(selector).each(function() {
         var text = $(this).text()
@@ -357,6 +365,21 @@ $(document).ready(function() {
         $(this).closest('form').submit();
     });
 
+    $('.menu_btn').click(function() {
+        $('#menu').show();
+    });
+
+    $('.close').click(function() {
+        $('#menu').hide();
+    });
+
+
+
+
     $('<iframe id="map" src="ajax/map.html" frameborder="0"></iframe>').appendTo('.map .map-w');
 
+});
+
+$(window).scroll(function() {
+    hfixed();
 });

@@ -448,6 +448,11 @@ module.exports = function(grunt) {
             mobile_bp_init_js: {
                 src: 'src/mobile/js/init.js',
                 dest: 'src/mobile/js/bp/init.js',
+            },
+            other_copies:{
+                
+                src: 'src/desktop/js/video.mp4',
+                dest: 'dist/js/video.mp4',
             }
         },
 
@@ -1439,7 +1444,7 @@ if(mobile) {
     fin_array.push('start-mobile').push('fin-mobile');
     check_command.push('check-mobile');
 }
-
+fin_array.push('copy:other_copies');
 fin_array.push('validation:dist');
 
 check_command.push('validation:src');

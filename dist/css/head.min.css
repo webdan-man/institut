@@ -1,4 +1,5 @@
 .sec1{background-image:url(img/bg_sec1.jpg)}
+.map{height:497px;position:relative;z-index:2}
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
 body{margin:0}
@@ -19,7 +20,7 @@ a::after,a::before,br::after,br::before,img::after,img::before,span::after,span:
 .wrap{position:relative;margin:0 auto;max-width:1200px;width:100%;z-index:2;text-align:center;font-size:0;height:100%}
 .header,.section,header{width:100%;overflow:hidden;position:relative;z-index:1}
 h1{font-size:1em;font-weight:inherit;text-align:center}
-body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
+body{font-weight:400;color:#fff;font-family:GillSansLight,sans-serif}
 a{text-decoration:none;color:inherit;outline:0!important}
 #hidden-box{display:none}
 .mobi{display:none}
@@ -146,6 +147,12 @@ header{top:0;padding:7px 0}
 }
 #okgo{max-width:320px;text-align:center;padding:20px;font-size:20px;background-color:#fff;color:#000;background-position:initial initial;background-repeat:initial initial}
 #popup-animation{z-index:-120;top:0;left:0;position:absolute;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
+#menu{position:fixed;left:0;right:0;top:0;bottom:0;z-index:20;background-color:rgba(255,255,255,.8);display:none;background-position:initial initial;background-repeat:initial initial}
+#menu .close{width:29px;height:29px;margin-left:294px;margin-top:35px;margin-bottom:90px;cursor:pointer;background-position:initial initial;background-repeat:initial initial}
+#menu a.link.open::after{content:' ';display:inline-block;width:11px;height:6px;margin-left:4px;background-position:initial initial;background-repeat:initial initial}
+#menu a.link.action{color:#4898a9}
+#menu a.link{font-size:16px;color:#494949;display:block;text-align:left;text-decoration:underline;margin-left:10px;margin-bottom:14px;cursor:pointer}
+#menu a.uslug{font-size:16px;color:#494949;display:block;text-align:left;text-decoration:underline;margin-left:34px;margin-bottom:14px;cursor:pointer}
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
 body{margin:0}
@@ -166,7 +173,7 @@ a::after,a::before,br::after,br::before,img::after,img::before,span::after,span:
 .wrap{position:relative;margin:0 auto;max-width:1200px;width:100%;z-index:2;text-align:center;font-size:0;height:100%}
 .header,.section,header{width:100%;overflow:hidden;position:relative;z-index:1}
 h1{font-size:1em;font-weight:inherit;text-align:center}
-body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
+body{font-weight:400;color:#fff;font-family:GillSansLight,sans-serif}
 a{text-decoration:none;color:inherit;outline:0!important}
 #hidden-box{display:none}
 .mobi{display:none}
@@ -293,6 +300,12 @@ header{top:0;padding:7px 0}
 }
 #okgo{max-width:320px;text-align:center;padding:20px;font-size:20px;background-color:#fff;color:#000;background-position:initial initial;background-repeat:initial initial}
 #popup-animation{z-index:-120;top:0;left:0;position:absolute;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
+#menu{position:fixed;left:0;right:0;top:0;bottom:0;z-index:20;background-color:rgba(255,255,255,.8);display:none;background-position:initial initial;background-repeat:initial initial}
+#menu .close{width:29px;height:29px;margin-left:294px;margin-top:35px;margin-bottom:90px;cursor:pointer;background-position:initial initial;background-repeat:initial initial}
+#menu a.link.open::after{content:' ';display:inline-block;width:11px;height:6px;margin-left:4px;background-position:initial initial;background-repeat:initial initial}
+#menu a.link.action{color:#4898a9}
+#menu a.link{font-size:16px;color:#494949;display:block;text-align:left;text-decoration:underline;margin-left:10px;margin-bottom:14px;cursor:pointer}
+#menu a.uslug{font-size:16px;color:#494949;display:block;text-align:left;text-decoration:underline;margin-left:34px;margin-bottom:14px;cursor:pointer}
 Console output: fonts-startConsole output: isMobile = false header{display:block}
 html{font-family:sans-serif}
 body{margin:0}
@@ -311,7 +324,7 @@ a::after,a::before,br::after,br::before,span::after,span::before{content:none}
 .wrap{position:relative;margin:0 auto;max-width:1200px;width:100%;z-index:2;text-align:center;font-size:0;height:100%}
 .header,header{width:100%;overflow:hidden;position:relative;z-index:1}
 h1{font-size:1em;font-weight:inherit;text-align:center}
-body{font-weight:400;color:#fff;font-family:GillSansLight,open-sans}
+body{font-weight:400;color:#fff;font-family:GillSansLight,sans-serif}
 a{text-decoration:none;color:inherit;outline:0!important}
 #hidden-box{display:none}
 .mobi{display:none}
@@ -451,3 +464,9 @@ header{top:0;padding:7px 0}
 }
 #okgo{max-width:320px;text-align:center;padding:20px;font-size:20px;background-color:#fff;color:#000;background-position:initial initial;background-repeat:initial initial}
 #popup-animation{z-index:-120;top:0;left:0;position:absolute;background-color:#fff;background-position:initial initial;background-repeat:initial initial}
+#menu{position:fixed;left:0;right:0;top:0;bottom:0;z-index:20;background-color:rgba(255,255,255,.8);display:none;background-position:initial initial;background-repeat:initial initial}
+#menu .close{width:29px;height:29px;margin-left:294px;margin-top:35px;margin-bottom:90px;cursor:pointer;background-position:initial initial;background-repeat:initial initial}
+#menu a.link.open::after{content:' ';display:inline-block;width:11px;height:6px;margin-left:4px;background-position:initial initial;background-repeat:initial initial}
+#menu a.link.action{color:#4898a9}
+#menu a.link{font-size:16px;color:#494949;display:block;text-align:left;text-decoration:underline;margin-left:10px;margin-bottom:14px;cursor:pointer}
+#menu a.uslug{font-size:16px;color:#494949;display:block;text-align:left;text-decoration:underline;margin-left:34px;margin-bottom:14px;cursor:pointer}

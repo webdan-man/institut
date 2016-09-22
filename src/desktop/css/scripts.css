@@ -154,3 +154,66 @@
     position : absolute;
     background : white;
 }
+#menu {
+    position : fixed;
+    left : 0;
+    right : 0;
+    top : 0;
+    bottom : 0;
+    z-index : 20;
+    background : rgba(255, 255, 255, 0.8);
+    display : none;
+}
+#menu .close {
+    background : url(../img/close.png);
+    width : 29px;
+    height : 29px;
+    margin-left : 294px;
+    margin-top : 35px;
+    margin-bottom : 90px;
+    cursor : pointer;
+}
+#menu a.link.open:after {
+    content : ' ';
+    display : inline-block;
+    background : url(../img/link-opened.png);
+    width : 11px;
+    height : 6px;
+    margin-left : 4px;
+}
+#menu a.link.action {
+    color : #4898a9;
+}
+#menu a.link {
+    font-size : 16px;
+    color : #494949;
+    display : block;
+    text-align : left;
+    text-decoration : underline;
+    margin-left : 10px;
+    margin-bottom : 14px;
+    cursor : pointer;
+}
+#menu a.uslug {
+    font-size : 16px;
+    color : #494949;
+    display : block;
+    text-align : left;
+    text-decoration : underline;
+    margin-left : 34px;
+    margin-bottom : 14px;
+    cursor : pointer;
+}
+#menu a:hover {
+    text-decoration : none!important;
+}
+
+body.h-fixed #menu .close {
+    margin-top : 20px;
+}
+
+body.h-fixed .header {
+    position : fixed;
+    top : 0;
+    background : rgba(41, 100, 113, 0.6);
+}

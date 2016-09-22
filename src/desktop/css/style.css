@@ -73,7 +73,7 @@ h5 {
 body {
     font-weight : 400;
     color : white;
-    font-family : 'GillSansLight',open-sans;
+    font-family : 'GillSansLight', sans-serif;
 }
 a {
     text-decoration : none;
@@ -108,9 +108,11 @@ a {
 .header {
     position : absolute;
     top : 15px;
+    /* top: 0; */
     left : 0;
     z-index : 5;
     padding : 13px 0;
+    /* background: rgba(41, 100, 113, 0.6); */
 }
 
 .logo {
@@ -548,38 +550,38 @@ a {
     display : inline-block;
 }
 .spec1 {
-    background-image : url(../img/spec1.png);
+    background-image : url(../img/spec1.jpg);
 }
 .spec2 {
-    background-image : url(../img/spec2.png);
+    background-image : url(../img/spec2.jpg);
 }
 .spec3 {
-    background-image : url(../img/spec3.png);
+    background-image : url(../img/spec3.jpg);
 }
 .spec4 {
-    background-image : url(../img/spec4.png);
+    background-image : url(../img/spec4.jpg);
 }
 .spec5 {
-    background-image : url(../img/spec5.png);
+    background-image : url(../img/spec5.jpg);
     background-color : #eaeef0;
 }
 .spec6 {
-    background-image : url(../img/spec6.png);
+    background-image : url(../img/spec6.jpg);
 }
 .spec7 {
-    background-image : url(../img/spec7.png);
+    background-image : url(../img/spec7.jpg);
 }
 .spec8 {
-    background-image : url(../img/spec8.png);
+    background-image : url(../img/spec8.jpg);
 }
 .spec9 {
-    background-image : url(../img/spec9.png);
+    background-image : url(../img/spec9.jpg);
 }
 .spec10 {
-    background-image : url(../img/spec10.png);
+    background-image : url(../img/spec10.jpg);
 }
 .spec11 {
-    background-image : url(../img/spec11.png);
+    background-image : url(../img/spec11.jpg);
 }
 
 .slid_s {
@@ -1371,7 +1373,7 @@ a {
 }
 
 .map {
-    background-image : url(../img/bg_map.jpg);
+    /* background-image : url(../img/bg_map.jpg); */
     height : 497px;
     position : relative;
     z-index : 2;

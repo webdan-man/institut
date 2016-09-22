@@ -25,7 +25,7 @@
     <body>
         <div class="header">
             <div class="wrap">
-                <a class="logo" href="#"></a>
+                <a class="logo" href="http://iphk.ru/" target="_blank"></a>
                 <div class="menu_btn"></div>
                 <div class="head_info">
                     <a href="tel:+74991232233">+7 (499) 123-22-33</a>
@@ -868,6 +868,24 @@
             </div>
         </div>
         <div id="popup-animation">
+        </div>
+        <div id="menu">
+            <div class="wrap">
+                <div class="close"></div>
+                <a class="link" href="#">О нас</a>
+                <a class="link action" href="#">Получите услугу в подарок</a>
+                <a class="link open" href="#">Услуги</a>
+                <a class="uslug" href="#">Пластическая хирургия</a>
+                <a class="uslug" href="#">Косметология</a>
+                <a class="uslug" href="#">Детская поликлиника</a>
+                <a class="uslug" href="#">Стоматология</a>
+                <a class="uslug" href="#">Лучевая диагностика и лучевая терапия</a>
+                <a class="uslug" href="#">Лабораторная диагностика</a>
+                <a class="uslug" href="#">Check-up new</a>
+                <a class="link" href="#">Специалисты</a>
+                <a class="link" href="#">Как мы работаем с Вами</a>
+                <a class="link" href="#">Контакты</a>
+            </div>
         </div>
         <!--div id="maket"></div-->
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>

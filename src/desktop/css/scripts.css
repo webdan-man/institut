@@ -46,7 +46,6 @@
 .slid_scroll_w {
     width : 100%;
     overflow : auto;
-    margin-top : -46px;
     height : 165px;
     /* padding-top: 20px; */
     /* padding-bottom: 20px; */

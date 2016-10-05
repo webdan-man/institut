@@ -1,3 +1,12 @@
+$.arcticmodal('setDefault', {
+    beforeOpen: function() {
+        //$('body').css('position', 'fixed')
+    },
+    beforeClose: function() {
+        //$('body').css('position', 'relative')
+    }
+});
+
 function hfixed() {
     $(window).scrollTop() > 15 ? $("body").addClass("h-fixed") : $("body").removeClass("h-fixed")
 }
@@ -12,6 +21,21 @@ function init_buttons(a) {
 function open_popup(a) {
     var b = $(a).attr("data-event"),
         c = $(a).attr("data-frmid");
+    if ($(a).hasClass('btn_sec5') || $(a).hasClass('btn_check') || $(a).hasClass('btn_sec4')) {
+        if ($(a).hasClass('btn_check')) {
+            $('#pop_form h3').html('Записаться на обследование');
+        } else {
+            $('#pop_form h3').html('Записаться на предварительную консультацию');
+        }
+        $('#pop_form form input[name="usluga"]').hide();
+    } else {
+        if ($(a).hasClass('btn_check')) {
+            $('#pop_form h3').html('Записаться на обследование');
+        } else {
+            $('#pop_form h3').html('Записаться на предварительную консультацию');
+        }
+        $('#pop_form form input[name="usluga"]').show();
+    }
     $('#pop_form form input[name="event"]').val(b), $('#pop_form form input[name="frmid"]').val(c), $("#pop_form").arcticmodal()
 }
 
@@ -147,7 +171,7 @@ init_bg_video(), $("img").each(function() {
             title: null
         }
     }), $(".video a").click(function(a) {
-        a.preventDefault(), $(this).closest(".video").html("").append('<iframe src="https://www.youtube.com/embed/2TzT3jKsqu0?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>')
+        a.preventDefault(), $(this).closest(".video").html("").append('<iframe src="https://www.youtube.com/embed/_JCD_uMIdwg?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>')
     }), $(".yea_gr").mouseover(function() {
         var a = $(".year_h:visible"),
             b = a.offset().left,

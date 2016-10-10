@@ -28,9 +28,9 @@
                 <a class="logo" href="http://iphk.ru/" target="_blank"></a>
                 <div class="menu_btn"></div>
                 <div class="head_info">
-                    <a class="ya-phone" href="javascript:void(0)">+7 (495) 775-01-03</a>
+                    <span class="ya-phone">+7 (495) 775-01-03</span>
                     <p>г. Москва, ул. Ольховская, 27</p>
-                    <span class="btn-link" data-event="frmh" data-frmid="Предварительная консультация(шапка)">Предварительная консультация
+                    <span class="btn-link a" data-event="frmh" data-frmid="Предварительная консультация(шапка)">Предварительная консультация
                     </span>
                 </div>
             </div>

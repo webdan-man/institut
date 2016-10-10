@@ -136,7 +136,7 @@ a {
     margin-top : 1px;
     position : relative;
 }
-.head_info a {
+.head_info span {
     font-size : 24px;
     letter-spacing : -1.2px;
     margin-right : 10px;
@@ -147,14 +147,14 @@ a {
     margin-right : 10px;
 }
 
-.h-fixed .head_info span {
+.h-fixed .head_info span.a {
     transform : translate3d(-100%,-2px,0);
     position : absolute;
     top : 0;
     width : 210px;
     left : -20px;
 }
-.head_info span {
+.head_info span.a {
     font-size : 18px;
     letter-spacing : -0.9px;
     margin-right : -6px;
@@ -164,7 +164,7 @@ a {
     height : 23px;
     cursor : pointer;
 }
-.head_info span:hover {
+.head_info span.a:hover {
     border : none;
 }
 .sec1_gr {
@@ -2029,7 +2029,7 @@ input {
     }
 }
 @media (max-width:800px) {
-    .head_info span {
+    .head_info span.a {
         display : none;
     }
     .sec1_gr {
@@ -2188,7 +2188,7 @@ input {
 }
 @media (max-width:600px) {
     .head_info p,
-    .head_info span {
+    .head_info span.a {
         display : none;
     }
     .sec1 {
@@ -2373,7 +2373,7 @@ input {
         font-size : 18px;
         padding-top : 4px;
     }
-    .head_info a {
+    .head_info span {
         font-size : 20px;
     }
     .head_info {
@@ -2412,7 +2412,7 @@ input {
     .logo {
         margin : 0 0;
     }
-    .head_info a {
+    .head_info span {
         font-size : 16px;
         margin-right : 0;
         letter-spacing : -0.8px;

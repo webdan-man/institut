@@ -149,11 +149,11 @@ a{text-decoration:none;color:inherit;outline:0!important}
 .logo{background-image:url(../img/logo.png);width:235px;height:57px;position:relative;display:inline-block;float:left;margin:0 10px;-webkit-background-size:contain;background-size:contain}
 .menu_btn{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAbAQMAAAAqF2+eAAAABlBMVEX///////9VfPVsAAAAAXRSTlMAQObYZgAAABRJREFUCNdj+A8EfxiQSfIAzcwBACfiLLk7pc5OAAAAAElFTkSuQmCC);width:38px;height:27px;float:left;margin:13px 35px;cursor:pointer}
 .head_info{float:right;text-align:right;margin-top:1px;position:relative}
-.head_info a{font-size:24px;letter-spacing:-1.2px;margin-right:10px}
+.head_info span{font-size:24px;letter-spacing:-1.2px;margin-right:10px}
 .head_info p{font-size:18px;letter-spacing:-.9px;margin-right:10px}
-.h-fixed .head_info span{-webkit-transform:translate3d(-100%,-2px,0);transform:translate3d(-100%,-2px,0);position:absolute;top:0;width:210px;left:-20px}
-.head_info span{font-size:18px;letter-spacing:-.9px;margin-right:-6px;margin-top:4px;display:inline-block;border-bottom:1px dashed #fff;height:23px;cursor:pointer}
-.head_info span:hover{border:none}
+.h-fixed .head_info span.a{-webkit-transform:translate3d(-100%,-2px,0);transform:translate3d(-100%,-2px,0);position:absolute;top:0;width:210px;left:-20px}
+.head_info span.a{font-size:18px;letter-spacing:-.9px;margin-right:-6px;margin-top:4px;display:inline-block;border-bottom:1px dashed #fff;height:23px;cursor:pointer}
+.head_info span.a:hover{border:none}
 .sec1_gr{width:50%;float:right;padding-left:7.5%}
 .sec1 h1{color:#494949;font-size:42px;letter-spacing:-2.2px;text-align:left;line-height:42px}
 .sec1 h1 span{font-size:18px;letter-spacing:-.9px;line-height:normal;margin-bottom:14px;display:inline-block}
@@ -476,7 +476,7 @@ button,input{border:none;outline:0}
 .per_gr span{margin-right:0;padding-left:30px}
 .per_gr{width:92%}
 }
-@media (max-width:800px){.head_info span{display:none}
+@media (max-width:800px){.head_info span.a{display:none}
 .per_gr{width:100%;padding-left:0}
 .slider_s{margin-top:-70px}
 .zadacha_gr,.zadacha_gr1,.zadacha_gr2,.zadacha_gr3,.zadacha_gr4,.zadacha_gr5,.zadacha_gr6,.zadacha_gr7{margin:.1%}
@@ -514,7 +514,7 @@ flo{width:100%;margin-top:50px}
 .sec12{min-height:400px}
 .ons_gr{margin:1% 5%!important;width:40%}
 }
-@media (max-width:600px){.head_info p,.head_info span{display:none}
+@media (max-width:600px){.head_info p,.head_info span.a{display:none}
 .sec1{padding-top:120px;background-image:url(../img/bg_sec1_plan.jpg)}
 .sec1_gr{width:100%}
 .sec4{background-image:url(../img/girl.jpg);background-color:#eaeef0;background-position:bottom;-webkit-background-size:contain;background-size:contain}
@@ -556,7 +556,7 @@ footer .info{display:inline-block;width:100%;position:relative;top:0;left:0;marg
 .ons_gr{margin:15px auto!important;width:100%}
 .sec16{padding-bottom:40px}
 .video a span{font-size:18px;padding-top:4px}
-.head_info a{font-size:20px}
+.head_info span{font-size:20px}
 .head_info{margin-top:14px}
 .sec5 h3{font-size:22px}
 .btn_head{font-size:16px;width:301px;border:2px solid #fff;color:#fff}
@@ -567,7 +567,7 @@ footer .info{display:inline-block;width:100%;position:relative;top:0;left:0;marg
 .sec4_l{margin-bottom:205px}
 .info{padding:10px}
 .logo{margin:0 0}
-.head_info a{font-size:16px;margin-right:0;letter-spacing:-.8px}
+.head_info span{font-size:16px;margin-right:0;letter-spacing:-.8px}
 .sec1{padding-top:90px;background-image:url(../img/bg_sec1_m.jpg);height:581px}
 .spec1,.spec10,.spec11,.spec2,.spec3,.spec4,.spec5,.spec6,.spec7,.spec8,.spec9{width:100%;height:255px}
 .text_gr{width:100%;float:none;display:inline-block;margin-top:126px}
